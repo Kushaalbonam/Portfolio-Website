@@ -1,0 +1,979 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kushaal Bonam - Personal Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/my-avatar.png" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/my-avatar.png" alt="Kushaal Bonam" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Kushaal Bonam">Kushaal Bonam</h1>
+
+          <p class="title">Python Developer | Web Developer | <br> Blockchain Enthusiast</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:workwithkushaalbonam@gmail.com" class="contact-link">
+                <p>workwithkushaalbonam<br>@gmail.com</p>
+              </a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+917036940830" class="contact-link">+91 703-694-0830</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="2002-09-18">Sep 18, 2002</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Bangalore, Karnataka, India</address>
+            </div>
+
+          </li>
+          <a href="https://drive.google.com/uc?export=download&id=1XCGGjXt-K79uSnYc2oBQ5pbfAlw3mmsQ"> 
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="download-outline" ></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Resume</p>
+
+              <address >Resume Download</address>
+            </div>
+
+          </li>
+        </a>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href=https://github.com/Kushaalbonam class="social-link">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href=https://www.linkedin.com/in/kushaalbonam/ class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href=https://x.com/KushaalBonam22 class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Blog</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            I'm a Python and Web developer from India with strong understanding of Python, JavaScript, HTML/CSS, and modern web frameworks like Django and React, as well as deeply familiar with full-stack development and cloud technologies.
+          </p>
+
+          <p>
+            My primary responsibility is developing robust Python applications and modern web solutions that are not only
+            functional and scalable but also user-friendly. I'm passionate about blockchain technology and enjoy building
+            decentralized applications. I infuse best practices and clean code principles into each project, ensuring high
+            performance and maintainability. My objective is to create innovative solutions that solve real-world problems
+            while staying current with emerging technologies.
+          </p>
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">What i'm doing</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/logo-python.svg" alt="python icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Python Development</h4>
+
+                <p class="service-item-text">
+                  I develop robust Python applications, from data processing scripts to web services, leveraging powerful
+                  libraries and frameworks to create efficient and scalable solutions.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/logo-HTML.svg
+                " alt="web icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web Development</h4>
+
+                <p class="service-item-text">
+                  I create modern, responsive web applications using technologies like React, Angular and Vue.js, focusing on
+                  clean code architecture and optimal user experience across all devices
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-block.svg" alt="blockchain icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Blockhain Enthusiast</h4>
+
+                <p class="service-item-text">
+                  Passionate about blockchain technology, I explore and research decentralized applications (DApps),
+                  Solidity, and Web3, understanding the potential of smart contracts and distributed systems.
+                </p>
+              </div>
+
+            </li>
+            
+
+
+
+
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - Certification
+        -->
+
+          <!--
+              AWS Certificates
+            -->
+
+        <section class="certifications">
+
+          <h3 class="h3 certifications-title">Certificates</h3>
+
+          <ul class="certifications-list has-scrollbar">
+
+            <li class="certifications-item">
+              <div class="content-card" data-certifications-item>
+
+                <figure class="certifications-avatar-box">
+                  <img src="./assets/images/logo-AWS.svg" alt="AWS" style="width: 80px; height: 80px;" data-certifications-avatar>
+                </figure>
+
+                <h4 class="h4 certifications-item-title" data-certifications-title>AWS Cloud</h4>
+
+                <div class="certifications-text" data-certifications-text>
+                  <p>
+                    Certificate 1 :- AWS Academy Graduate - AWS Academy Cloud Foundations
+                    <br>
+
+                    It covers fundamental AWS Cloud concepts, services, security, architecture, pricing and support. Topics include core services like EC2, S3, IAM, VPC and best practices for building secure and reliable cloud solutions.
+
+                  </p>
+                  <br>
+                  <a id="certificate-link" href="https://www.credly.com/badges/a56e8f67-ef31-4373-9843-54248bb20670/linked_in_profile" target="_blank"
+                  >Link</a>
+                  <br>
+
+
+
+                </div>
+
+              </div>
+            </li>
+
+            <!--
+              FreeCodeCamp Certificates
+            -->
+
+            <li class="certifications-item">
+              <div class="content-card" data-certifications-item>
+
+                <figure class="certifications-avatar-box">
+                  <img src="./assets/images/logo-freecode.svg" alt="FreeCodeCamp" style="width: 80px; height: 80px;" data-certifications-avatar>
+                </figure>
+
+                <h4 class="h4 certifications-item-title" data-certifications-title>FreeCodeCamp</h4>
+
+                <div class="certifications-text" data-certifications-text>
+                  <p>
+                    Certificate 1 :- Machine Learning with Python
+                    <br>
+
+                    Skills gained :-
+                    TensorFlow, 
+                    Neural Networks, 
+                    Data Analysis, 
+                    Python Programming, 
+                    Machine Learning Algorithms.
+
+                  </p>
+                  <br>
+                  <a id="certificate-link" href="https://www.freecodecamp.org/certification/fcc1a2d2428-7cee-43b9-af02-b64521af2ecb/machine-learning-with-python-v7" target="_blank"
+                  >Link</a>
+                  <br>
+
+
+        
+
+
+
+
+                </div>
+
+              </div>
+            </li>
+
+            <!--
+              SGU Certificates
+            -->
+
+    
+
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - certifications modal
+        -->
+
+       <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="certifications-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-1.png" alt="Hacker Rank" width="80" data-modal-img>
+              </figure>
+
+            </div>
+
+            <div class="modal-content">
+
+              <h4 class="h3 modal-title" data-modal-title>Hacker Rank</h4>
+
+              <time datetime="2023-01-07">07 Jan, 2023</time>
+
+              <div data-modal-text>
+
+                <p>
+                  Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                  lot of experience
+                  and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                  consectetur adipiscing
+                  elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                </p>
+              </div>
+
+            </div>
+
+          </section>
+
+        </div> 
+
+
+        <!--
+          - technologies
+        -->
+
+        <section class="technologies">
+
+          <h3 class="h3 technologies-title">Programming languages</h3>
+
+          <ul class="technologies-list has-scrollbar">
+
+            <li class="techstack-item">
+              <a href="#">
+                <img src="./assets/images/logo-python.svg" alt="python logo" style="width: 134.5px; height: 134.5px;">
+              </a>
+            </li>
+
+            <li class="techstack-item">
+              <a href="#">
+                <img src="./assets/images/logo-HTML.svg" alt="HTML logo" style="width: 134.5px; height: 134.5px;">
+              </a>
+            </li>
+
+            <li class="techstack-item">
+              <a href="#">
+                <img src="./assets/images/logo-CSS.svg" alt="CSS logo" style="width: 134.5px; height: 134.5px;">
+              </a>
+            </li>
+
+            <li class="techstack-item">
+              <a href="#">
+                <img src="./assets/images/logo-JS.svg" alt="JS logo" style="width: 134.5px; height: 134.5px;">
+              </a>
+            </li>
+
+
+
+</ul>
+</section>
+        <!--
+        tech stack
+        -->
+
+        <section class="technologies ">
+
+          <h3 class="h3 technologies-title">Frameworks & Libraries</h3>
+
+          <ul class="technologies-list has-scrollbar">
+
+            <li class="techstack-item">
+              <a href="#">
+                <img src="./assets/images/logo-node.svg" alt="node logo" style="width: 134.5px; height: 134.5px;">
+              </a>
+            </li>
+
+            <li class="techstack-item">
+              <a href="#">
+                <img src="./assets/images/logo-next.svg" alt="next logo" style="width: 134.5px; height: 134.5px;">
+
+              
+              </a>
+            </li>
+
+           
+
+            
+
+        </section>
+
+        <!--Databases -->
+
+        <section class="technologies">
+
+          <h3 class="h3 technologies-title">Databases</h3>
+
+          <ul class="technologies-list has-scrollbar">
+
+            
+
+            <li class="techstack-item">
+              <a href="#">
+                <img src="./assets/images/logo-mysql.svg" alt="mysql logo" style="width: 134.5px; height: 134.5px;">
+              </a>
+            </li>
+          
+           
+
+        </section>
+
+      </section>
+
+      <!--Developement Tools -->
+
+      <section class="technologies">
+
+        <h3 class="h3 technologies-title">Developement Tools</h3>
+
+        <ul class="technologies-list has-scrollbar">
+
+          
+
+          <li class="techstack-item">
+            <a href="#">
+              <img src="./assets/images/logo-github.svg" alt="github logo" style="width: 134.5px; height: 134.5px;">
+            </a>
+          </li>
+
+  
+
+          <li class="techstack-item">
+            <a href="#">
+              <img src="./assets/images/logo-vs.svg" alt="vscode logo" style="width: 134.5px; height: 134.5px;">
+            </a>
+          </li>
+
+          <li class="techstack-item">
+            <a href="#">
+              <img src="./assets/images/logo-iterm.svg" alt="iterm logo" style="width: 134.5px; height: 134.5px;">
+            </a>
+          </li>
+
+         
+        </ul>
+
+      </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">BMS Institute of Technology and Management, Bangalore</h4>
+              <span>Master of Computer Applications (MCA), 2023 - Present</span>
+              <p class="timeline-text">
+                Currently pursuing an MCA with a focus on software development, data structures, AI, and database management. Engaged in practical projects, internships, seminars, and collaborative group work to enhance technical and teamwork skills.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">University of Petroleum and Energy Studies, Dehradun</h4>
+
+              <span>Bachelor of Computer Applications (BCA), 2020 - 2023</span>
+
+              <p class="timeline-text">
+                Completed a BCA with a focus on programming, web development, and database management. Participated in various projects, and workshops to gain practical experience and enhance technical skills. Collaborated on group assignments to develop strong teamwork abilities.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Reqelford International School, Hyderabad</h4>
+
+              <span>12th (CBSE), 2020
+              </span>
+
+              <p class="timeline-text">
+                Completed higher secondary education with a focus on science, including subjects like mathematics, physics, and chemistry. Engaged in various laboratory experiments, numerical problem-solving, and research activities to develop a comprehensive understanding of scientific principles and enhance analytical and mathematical skills.              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Swarnandhra International School, Narsapuram</h4>
+
+              <span>10th (CBSE), 2018
+              </span>
+
+              <p class="timeline-text">
+                Completed primary to secondary education with a well-rounded curriculum emphasizing academics, sports, and extracurricular activities. Developed strong foundational skills in various subjects and participated in projects and events to foster teamwork, leadership, and holistic development.
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+       <!---- <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Honors & awards</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">National-Level Ideathon Champion, NIT Nagaland</h4>
+
+              <span>March 2nd, 2024</span>
+
+              <p class="timeline-text">
+                Awarded as <strong>First place</strong> for the winning solution in the NIT Nagaland Ideathon as part of Team "Paryavaran Rakshak" with Manav Patni and Mohit Rathi. Developed an innovative solution focused on environmental sustainability and received a prize of <Strong>Rs.10,000</Strong>. This achievement underscores our dedication to innovative problem-solving and commitment to positive change.
+
+
+          </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">
+                Finalist: National Level Tech Fest - Brain It On 2.0</h4>
+
+              <span>December 2023</span>
+
+              <p class="timeline-text">
+                I've advanced to the finals of Brain It On 2.0, hosted by Padmabhooshan Vashatrarao Dada Patil Institute of Technology, Sangli. I had presented my E-Waste Solution for Smart Environments & Smart Cities in the final round.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Smart India Hackathon Participation</h4>
+
+              <span>Hosted by Sanjay Ghodawat University · Sep 2023</span>
+
+              <p class="timeline-text">
+                Led a team at the Smart India Hackathon, addressing challenges in the wool industry. Developed a comprehensive solution from farm to cloth manufacturing, focusing on efficiency and sustainability. This experience highlighted my technical expertise and dedication to industry transformation. Looking forward to future leadership opportunities in leveraging technology for impactful solutions.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">National Hackathon Champion - Vibrant 2023-24</h4>
+
+              <span>Hosted by Sanjay Ghodawat University · Nov 2023</span>
+
+              <p class="timeline-text">
+                🏆 Proud to be the National Hackathon Champion at Vibrant 2023-24, hosted by Sanjay Ghodawat University. Our winning project, themed around "Rural Education," earned a Rs.10,000 cash prize. The tech solution we developed aims to enhance accessibility and quality in rural education. Grateful for the collaborative effort of my team. Committed to leveraging technology for positive change, I am eager to pursue opportunities that align with my mission to address societal challenges.              </p>
+
+            </li>
+
+          </ol>
+
+        </section> -->
+
+        <section class="skill">
+
+          <h3 class="h3 skills-title">Tech Stack Proficiency</h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Vscode, Cursor, ChatGPT</h5>
+                <data value="90">90%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">HTML, CSS, JavaScript</h5>
+                <data value="65">65%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 65%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5"> Python</h5>
+                <data value="50%">50%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 50%;"></div>
+              </div>
+
+            </li>
+
+          </ul>
+<br><br>
+          <button class="form-btn"  onclick="window.location.href='https://drive.google.com/uc?export=download&id=1XCGGjXt-K79uSnYc2oBQ5pbfAlw3mmsQ'" >
+            <ion-icon name="paper-plane"></ion-icon>
+            <span>Resume Download</span>
+          </button>
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="portfolio"><!--TODO Portfolio -->
+
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Web development</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn></button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn></button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn></button>
+            </li>
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Web development</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item></button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item></button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item></button>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="https://shriganeshpurohit.vercel.app/">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/Web-portfolio.png" alt="personal portfolio" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Personal Portfolio</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #BLOG
+      -->
+
+      <article class="blog" data-page="blog">
+
+        <header>
+          <h2 class="h2 article-title">Blog</h2>
+        </header>
+
+        <section class="blog-posts">
+
+          <br><br>
+
+          <center><h2 class="h2 article-title">🚧 Under construction 🚧</h2></center>
+
+         
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <section class="mapbox" data-mapbox>
+          <figure>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26593.442846754308!2d77.58849553455624!3d12.980262496452346!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae1670c9b44e6d%3A0xf8dfc3e8517e4fe0!2sBengaluru%2C%20Karnataka!5e0!3m2!1sen!2sin!4v1733418834617!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </figure>
+        </section>
+
+        <section class="contact-form">
+
+          <h3 class="h3 form-title">Contact Form</h3>
+
+          <form action="#" class="form" data-form>
+
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+
+              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+            </div>
+
+            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+
+            <button class="form-btn" type="submit" disabled data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+
+          </form>
+
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
